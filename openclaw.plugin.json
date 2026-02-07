@@ -1,0 +1,15 @@
+{
+  "id": "agentlink-bridge",
+  "name": "AgentLink Bridge",
+  "description": "Receive AgentLink messages and trigger OpenClaw agent runs.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "enabled": { "type": "boolean", "default": true },
+      "port": { "type": "number", "default": 8787 },
+      "path": { "type": "string", "default": "/agentlink/message" },
+      "token": { "type": "string" }
+    }
+  }
+}

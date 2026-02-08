@@ -7,10 +7,6 @@
     "additionalProperties": false,
     "properties": {
       "enabled": { "type": "boolean", "default": true },
-      "mode": { "type": "string", "default": "push" },
-      "port": { "type": "number", "default": 8787 },
-      "path": { "type": "string", "default": "/agentlink/message" },
-      "token": { "type": "string" },
       "baseUrl": { "type": "string" },
       "agentToken": { "type": "string" },
       "pollInterval": { "type": "number", "default": 2 },
